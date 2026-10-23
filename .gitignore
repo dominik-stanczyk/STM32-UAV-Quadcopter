@@ -1,0 +1,30 @@
+# STM32 Compiler outputs / IDE trash
+Debug/
+Release/
+*.elf
+*.bin
+*.map
+*.o
+*.su
+*.d
+*.i
+*.compile_commands.json
+.mxproject
+
+# VS Code settings & workspace files
+.vscode/
+*.code-workspace
+
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+ENV/
+
+# OS generated files
+.DS_Store
+Thumbs.db
