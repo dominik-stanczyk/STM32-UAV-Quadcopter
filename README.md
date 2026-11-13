@@ -14,7 +14,6 @@ mindmap
             STM32 Nucleo + IMU
             EMI Shielding
             Power Conditioning
-            Assembly
             4-Layer PCB 
         Firmware
             Low-Level Protocols
@@ -27,7 +26,7 @@ mindmap
             Data Offloading
                 DMA usage for I2C/SPI
             Flight Controler
-            PID Algorithm
+            PID Loop
         RF Communication & Safety
             UART connection to RF Receiver
             Digital packet decoding
@@ -53,23 +52,9 @@ mindmap
 ## Project Timeline & Stage Roadmap
 
 ```mermaid
-%%{init: {
-  'theme': 'base',
-  'themeVariables': {
-    'primaryColor': '#1e1e2e',
-    'primaryTextColor': '#cdd6f4',
-    'primaryBorderColor': '#b4befe',
-    'lineColor': '#a6adc8',
-    'cScaleColor0': '#89b4fa',
-    'cScaleColor1': '#a6e3a1',
-    'cScaleColor2': '#f9e2af',
-    'cScaleColor3': '#fab387',
-    'cScaleColor4': '#f38ba8'
-  }
-}}%%
 timeline
     title UAV Drone Project Development Timeline
-    Stage 1 : STM32 Nucleo + IMU : IMU Register Reading via I2C : Python/OpenGL 3D Visualization
+    Stage 1 : STM32 Nucleo + IMU : IMU Register Reading via I2C, SPI : Python/OpenGL 3D Visualization
     Stage 2 : Sensor Fusion Algorithms : RF Protocol Decoding : Initial PID Loop Development
     Stage 4 : F450 Frame Assembly : Manual Hover Tests
     Stage 5 : 4-Layer Flight Controller PCB Design : Advanced PID Tuning : Field Flight Testing
@@ -77,14 +62,14 @@ timeline
 ```
 ---
 
-## Detailed Engineering Task Checklist
+## Task Checklist
 
 *Status: Tracking Stage 1 objectives.*
 
 ### 1. Hardware & Power Systems
-- [x] Select and verify IMU sensors (BMI270/LSM6DSOX)
+- [x] Select and verify IMU sensor (MPU6500)
 - [ ] **Assemble a solderless desktop prototyping rig (Nucleo + IMU)** `<- IN PROGRESS`
-- [ ] Design the flight controller schematic diagrams (KiCad/Altium)
+- [ ] Design the flight controller schematic diagrams
 - [ ] Route the 4-layer PCB layout with dedicated GND shielding planes
 - [ ] Solder components and perform Low-ESR power delivery validation
 
