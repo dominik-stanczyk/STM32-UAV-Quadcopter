@@ -64,7 +64,7 @@ timeline
 
 ## Task Checklist
 
-*Status: Tracking Stage 1 objectives.*
+*Status: Prototyping IMU data acquisition via SPI and I2C and developing complementary filter*
 
 ### 1. Hardware & Power Systems
 - [x] Select and verify IMU sensor (MPU6500)
