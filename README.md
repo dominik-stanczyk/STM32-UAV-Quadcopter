@@ -25,7 +25,7 @@ mindmap
             Real-time Loop
             Data Offloading
                 DMA usage for I2C/SPI
-            Flight Controler
+            Flight Controller
             PID Loop
         RF Communication & Safety
             UART connection to RF Receiver
@@ -56,9 +56,9 @@ timeline
     title UAV Drone Project Development Timeline
     Stage 1 : STM32 Nucleo + IMU : IMU Register Reading via I2C, SPI : Python/OpenGL 3D Visualization
     Stage 2 : Sensor Fusion Algorithms : RF Protocol Decoding : Initial PID Loop Development
-    Stage 4 : F450 Frame Assembly : Manual Hover Tests
-    Stage 5 : 4-Layer Flight Controller PCB Design : Advanced PID Tuning : Field Flight Testing
-    Stage 6 : Implementing RaspberryPI With AI Face Recognition : Final Engineering Thesis Documentation
+    Stage 3 : F450 Frame Assembly : Manual Hover Tests
+    Stage 4 : 4-Layer Flight Controller PCB Design : Advanced PID Tuning : Field Flight Testing
+    Stage 5 : Implementing Raspberry PI With AI Face Recognition : Final Engineering Thesis Documentation
 ```
 ---
 
